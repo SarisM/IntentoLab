@@ -24,6 +24,7 @@ const render = async () => {
 	} catch (error) {
 		console.error('Error al cargar el archivo JSON:', error)
 	}
+    console.log("hola")
 }
 
 document.addEventListener('DOMContentLoaded', render)
